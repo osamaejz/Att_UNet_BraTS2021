@@ -1,15 +1,15 @@
 1- The dataset should be in the following format;
 
-Dataset____
-           |___Training_set_____
-           |                    |___image
-           |                    |___mask
-           |
-           |___validation_set___
-           |                    |___image
-           |                    |___mask
-           |___Testing_set______
-                                |___image
-                                |___mask
+For training data;
+           Dataset/Traning_set/image
+           Dataset/Traning_set/mask
+           
+For validation data;
+           Dataset/validation_set/image
+           Dataset/validation_set/mask
+
+For testing data;
+           Dataset/Testing_set/image
+           Dataset/Testing_set/mask
 
 2- Execute model_impl.py to train the model  
